@@ -1,0 +1,3 @@
+[submodule "dependency/tensorRT_Pro"]
+	path = dependency/tensorRT_Pro
+	url = https://github.com/zkccpro/tensorRT_Pro.git

@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\app\app.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\app\detection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\app\pre_processing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\adaptivePoolPlugin\adaptivePoolPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\batchedNMSPlugin\batchedNMSInference.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\batchedNMSPlugin\batchedNMSPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\batchedNMSPlugin\kernel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\batchedNMSPlugin\nmsHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\carafeFeatureReassemblePlugin\carafeFeatureReassemblePlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\deformableConvPlugin\deform_conv_cuda.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\deformableConvPlugin\deformableConvPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\deformableConvPlugin\modulatedDeformableConvPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\deformablePoolPlugin\deformablePoolPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\delta2bboxPlugin\delta2bboxPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\gridAnchorDynamicPlugin\gridAnchorDynamicPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\gridSamplePlugin\gridSamplePlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\groupNormPlugin\groupNormPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\meshGridPlugin\meshGridPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\roiExtractorPlugin\roiExtractorPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\roiPoolPlugin\roiPoolPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchBmmPlugin\torchBmmPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchCumMaxMinPlugin\torchCumMaxMinPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchCumPlugin\torchCumPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchEmbeddingPlugin\torchEmbeddingPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchGatherPlugin\torchGatherPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchNMSPlugin\torchNMSPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchUnfoldPlugin\torchUnfoldPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\InferPlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\builder\trt_builder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\common\cuda_tools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\common\ilogger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\common\json.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\common\trt_tensor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\infer\trt_infer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx\onnx-ml.pb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx\onnx-operators-ml.pb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\builtin_op_importers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\LoopHelpers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\ModelImporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\NvOnnxParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\onnx2trt_utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\OnnxAttrs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\onnxErrorRecorder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\RNNHelpers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\ShapedWeights.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\ShapeTensor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnxplugin\onnxplugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnxplugin\plugin_binary_io.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\import_lib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\app\app.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\app\detection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\app\pre_processing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\include\amir_cuda_util\common_util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\include\amir_cuda_util\cuda_util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\include\amir_cuda_util\cudnn_util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\include\plugin\amirInferPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\adaptivePoolPlugin\adaptive_pool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\adaptivePoolPlugin\adaptivePoolPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\batchedNMSPlugin\batchedNMSInference.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\batchedNMSPlugin\batchedNMSPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\batchedNMSPlugin\bboxUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\batchedNMSPlugin\cub_helper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\batchedNMSPlugin\kernel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\batchedNMSPlugin\nmsUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\batchedNMSPlugin\plugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\carafeFeatureReassemblePlugin\carafe_cuda.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\carafeFeatureReassemblePlugin\carafeFeatureReassemblePlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\common\amirCommon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\common\common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\common\layer_base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\common\serialize.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\deformableConvPlugin\deform_conv_cuda.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\deformableConvPlugin\deformableConvPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\deformableConvPlugin\modulatedDeformableConvPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\deformablePoolPlugin\deform_roi_pool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\deformablePoolPlugin\deformablePoolPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\delta2bboxPlugin\delta2bbox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\delta2bboxPlugin\delta2bboxPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\gridAnchorDynamicPlugin\grid_anchor_dynamic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\gridAnchorDynamicPlugin\gridAnchorDynamicPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\gridSamplePlugin\grid_sample.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\gridSamplePlugin\gridSamplePlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\groupNormPlugin\group_norm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\groupNormPlugin\groupNormPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\meshGridPlugin\mesh_grid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\meshGridPlugin\meshGridPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\roiExtractorPlugin\roi_extractor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\roiExtractorPlugin\roiExtractorPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\roiPoolPlugin\roi_pool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\roiPoolPlugin\roiPoolPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchBmmPlugin\torchBmmPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchCumMaxMinPlugin\torch_cum_maxmin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchCumMaxMinPlugin\torchCumMaxMinPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchCumPlugin\torch_cum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchCumPlugin\torchCumPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchEmbeddingPlugin\torch_embedding.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchEmbeddingPlugin\torchEmbeddingPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchGatherPlugin\torch_gather.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchGatherPlugin\torchGatherPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchNMSPlugin\bboxUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchNMSPlugin\torch_nms.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchNMSPlugin\torchNMSPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchUnfoldPlugin\torch_unfold.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchUnfoldPlugin\torchUnfoldPlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\builder\trt_builder.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\common\cuda_tools.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\common\ilogger.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\common\infer_controller.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\common\json.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\common\monopoly_allocator.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\common\trt_tensor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\infer\trt_infer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx\onnx_pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx\onnxifi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx\onnx-ml.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx\onnx-operators-ml.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\builtin_op_importers.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\ImporterContext.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\LoopHelpers.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\ModelImporter.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\NvOnnxParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\onnx_utils.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\onnx2trt.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\onnx2trt_common.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\onnx2trt_runtime.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\onnx2trt_utils.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\OnnxAttrs.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\onnxErrorRecorder.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\RNNHelpers.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\ShapedWeights.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\ShapeTensor.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\Status.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\TensorOrWeights.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\toposort.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\trt_utils.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\utils.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnxplugin\onnxplugin.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnxplugin\plugin_binary_io.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\amir_cuda_util\reduceUtils.cuh" />
+    <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\deformablePoolPlugin\deform_roi_pool_cuda_kernel.cuh" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\batchedNMSPlugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\adaptivePoolPlugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\carafeFeatureReassemblePlugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\deformableConvPlugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\deformablePoolPlugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\delta2bboxPlugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\gridAnchorDynamicPlugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\gridSamplePlugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\groupNormPlugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\meshGridPlugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\roiExtractorPlugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\roiPoolPlugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchBmmPlugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchCumMaxMinPlugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchCumPlugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchEmbeddingPlugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchGatherPlugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchNMSPlugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchUnfoldPlugin\CMakeLists.txt" />
+    <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\amir_cuda_util\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\adaptivePoolPlugin\adaptive_pool.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\batchedNMSPlugin\allClassNMS.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\batchedNMSPlugin\common.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\batchedNMSPlugin\gatherNMSOutputs.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\batchedNMSPlugin\permuteData.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\batchedNMSPlugin\sortScoresPerClass.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\batchedNMSPlugin\sortScoresPerImage.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\carafeFeatureReassemblePlugin\carafe_cuda_kernel.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\deformableConvPlugin\deform_conv_cuda_kernel.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\deformablePoolPlugin\deform_roi_pool.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\delta2bboxPlugin\delta2bbox.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\gridAnchorDynamicPlugin\grid_anchor_dynamic.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\gridSamplePlugin\grid_sample.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\groupNormPlugin\group_norm_kernel.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\meshGridPlugin\mesh_grid.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\roiExtractorPlugin\roi_extractor_kernel.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\roiPoolPlugin\roi_pool_kernel.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchCumMaxMinPlugin\torch_cum_maxmin.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchCumPlugin\torch_cum.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchEmbeddingPlugin\torch_embedding.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchGatherPlugin\torch_gather.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchNMSPlugin\torch_nms.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\torchUnfoldPlugin\torch_unfold.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\amir_cuda_util\memcpyPermute.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\amir_cuda_util\repeatDims.cu" />
+    <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\amir_cuda_util\tensorMeanVar.cu" />
+  </ItemGroup>
+</Project>
