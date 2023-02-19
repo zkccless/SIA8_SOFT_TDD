@@ -84,8 +84,8 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)workspace</OutDir>
-    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);./lean/cuda11.3-trt8.2.2.1/include;./lean/opencv4.5.4/include;./lean/protobuf3.11.4/include;dependency/tensorRT_Pro/windows/src;dependency/tensorRT_Pro/windows/src/tensorRT;dependency/tensorRT_Pro/windows/src/tensorRT/common;dependency/tensorRT_Pro/windows/src/tensorRT/amirstan_plugin/include;dependency/tensorRT_Pro/windows/src/tensorRT/amirstan_plugin/src/plugin/common;dependency/tensorRT_Pro/windows/src/app</IncludePath>
-    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);./lean/cuda11.3-trt8.2.2.1/lib/x64;./lean/opencv4.5.4/lib;./lean/protobuf3.11.4/lib</LibraryPath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);./lean/cuda11.3-trt8.4.3.1/include;./lean/opencv4.5.4/include;./lean/protobuf3.11.4/include;dependency/tensorRT_Pro/windows/src;dependency/tensorRT_Pro/windows/src/tensorRT;dependency/tensorRT_Pro/windows/src/tensorRT/common;dependency/tensorRT_Pro/windows/src/tensorRT/amirstan_plugin/include;dependency/tensorRT_Pro/windows/src/tensorRT/amirstan_plugin/src/plugin/common;dependency/tensorRT_Pro/windows/src/app</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);./lean/cuda11.3-trt8.4.3.1/lib/x64;./lean/opencv4.5.4/lib;./lean/protobuf3.11.4/lib</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
