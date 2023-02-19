@@ -165,6 +165,9 @@
     <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\import_lib.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dependency\tensorRT_Pro\windows\src\app\app.hpp">
@@ -436,6 +439,15 @@
     </ClInclude>
     <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\amir_cuda_util\reduceUtils.cuh" />
     <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\deformablePoolPlugin\deform_roi_pool_cuda_kernel.cuh" />
+    <ClInclude Include="src\utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SimpleIni.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\plugin\batchedNMSPlugin\CMakeLists.txt" />

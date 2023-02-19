@@ -206,6 +206,7 @@
     <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\ShapedWeights.cpp" />
     <ClCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\ShapeTensor.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dependency\tensorRT_Pro\windows\src\app\app.hpp" />
@@ -297,6 +298,9 @@
     <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\toposort.hpp" />
     <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\trt_utils.hpp" />
     <ClInclude Include="dependency\tensorRT_Pro\windows\src\tensorRT\onnx_parser\utils.hpp" />
+    <ClInclude Include="src\data.h" />
+    <ClInclude Include="src\SimpleIni.h" />
+    <ClInclude Include="src\utils.h" />
   </ItemGroup>
   <ItemGroup>
     <CudaCompile Include="dependency\tensorRT_Pro\windows\src\tensorRT\amirstan_plugin\src\amir_cuda_util\memcpyPermute.cu">
